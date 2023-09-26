@@ -1,1 +1,1 @@
-# odin-landing-page
+It might just be a copy (mostly) of the reference image I was given, but it served well as a reinforcement to the knowledge I've gained so far and it actually helped me grasp the flexbox concepts better.
