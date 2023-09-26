@@ -118,3 +118,30 @@ a:hover {
 .box-col p {
     padding-bottom: 3em;
 }
+
+.light-gray {
+    background-color: #E5E7EB;
+    padding: 4em;
+}
+
+.quote {
+    width: 80%;
+    margin: 0 auto;
+}
+.quote-text {
+    margin: 0;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+}
+
+.text-box {
+    display: flex;
+    background-color: #3882F6;
+}
