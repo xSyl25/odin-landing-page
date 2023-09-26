@@ -141,7 +141,29 @@ a:hover {
     font-weight: 900;
 }
 
+.sky-blue {
+    padding: 3em 0;
+}
+
 .text-box {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5em 4em;
+    color: #fff;
     background-color: #3882F6;
+}
+
+.text-box h3 {
+    margin: 0;
+}
+
+.text {
+    width: 70%;
+}
+
+.text-box__btn {
+    padding: 0.5em 2em;
+    border: 2px solid #fff;
+    border-radius: 10px;
 }
