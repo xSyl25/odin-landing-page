@@ -34,4 +34,9 @@ a {
     margin-left: auto;
     list-style-type: none;
     gap: 1.5em;
+    font-weight: 500;
+}
+
+.account-item {
+    margin-left: 2em;
 }
