@@ -4,8 +4,13 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -13,8 +18,12 @@ a {
     color: #fff;
 }
 
+a:hover {
+    opacity: 70%;
+}
+
 .nav {
-    background-color: #1F2739;
+    background-color: #1F2937;
 }
 
 .nav-content {
@@ -39,4 +48,41 @@ a {
 
 .account-item {
     margin-left: 2em;
+}
+
+.dark-blue {
+    color: #fff;
+    background-color: #1F2937;
+    padding: 6em 0;
+}
+
+.main-text {
+    width: 48%;
+    margin: 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 48%;
+}
+
+.main-text h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.main-text p,
+.main-btn {
+    margin-top: 0.25em;
+    font-size: 18px;
+}
+
+.main-btn {
+    padding: 0.5em 1em;
+    border-radius: 10px;
+    background-color: #3882F6;
+    font-weight: 600;
 }
