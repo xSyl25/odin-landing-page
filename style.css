@@ -1,0 +1,37 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    background-color: #1F2739;
+}
+
+.nav-content {
+    display: flex;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: 700;
+    align-self: center;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    padding: 0;
+    margin-left: auto;
+    list-style-type: none;
+    gap: 1.5em;
+}
