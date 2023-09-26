@@ -86,3 +86,35 @@ a:hover {
     background-color: #3882F6;
     font-weight: 600;
 }
+
+.white {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.box-col {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+}
+
+.box {
+    border: 3px solid #3882F6;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.white h2 {
+    margin: 1em 0;
+    font-size: 36px;
+}
+
+.box-col p {
+    padding-bottom: 3em;
+}
